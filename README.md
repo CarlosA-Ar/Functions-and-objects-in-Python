@@ -1,5 +1,6 @@
 # ¿Con base en qué diseño una estrategia operativa qeu incremente mis ingresos?
 **EmTech**
+
 _Avila Argüello Carlos_
 
 ## Objetivo.
