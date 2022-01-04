@@ -1,4 +1,4 @@
-# ¿Con base en qué diseño una estrategia operativa qeu incremente mis ingresos?
+# ¿Con base en qué diseño una estrategia operativa que incremente mis ingresos?
 **EmTech**
 
 _Avila Argüello Carlos_
@@ -11,6 +11,17 @@ Las tres opciones existentes tienen enfoques en:
 1. Las rutas (país de origen y destino).
 2. El medio de transporte (mar, aire, etc.)
 3. El país.
+
+## Variables a considerar.
+Se considerará la frecuencia y monto como ejes de cada opción. Es decir, 
+1. El número de veces que: 
+  - Se usa una ruta
+  - Se usa un medio de transporte
+  - Un país importa o exporta.
+2. El monto total obtenido por:
+  - Cada ruta usada.
+  - Cada medio de transporte.
+  - Cada país importador o exportador.
 
 ## Datos con los que se cuenta.
 La base de datos considerada se encuentra en [este repositorio](https://github.com/emtechinstitute/data-science-proyecto2/blob/master/synergy_logistics_database.csv), dicha base contiene los datos:
@@ -28,17 +39,6 @@ La base de datos considerada se encuentra en [este repositorio](https://github.c
 - Modo de transporte (carro, aire, mar).
 - Compañía: nombre de la compañía a la cual pertenecen los productos.
 Monto importado/exportado.
-
-## Variables a considerar.
-Se considerará la frecuencia y monto como ejes de cada opción. Es decir, 
-1. El número de veces que: 
-  - Se usa una ruta
-  - Se usa un medio de transporte
-  - Un país importa o exporta.
-2. El monto total obtenido por:
-  - Cada ruta usada.
-  - Cada medio de transporte.
-  - Cada país importador o exportador.
 
 _Notas: dada la base de datos, es factible hacer un estudio de series de tiempo para determinar cuál de las tres estrategias tiene una predicción más favorable para las ganancias de las empresas involucradas para el 2021. Esto permitiría que haya un conocimiento más sólido en la base de la estrategía operativa._
 _Dado el tiempo para la entrega del proyecto, me limito por ahora (sin demeritar) a un estudio descriptivo de estadística clásica._
